@@ -61,7 +61,7 @@ useEffect(()=>{
                     <Icon type = "material-community"
                           name ="menu"
                           color = {colors.white}
-                          size = {40}
+                          size = {39}
                     />
                 </View>
             </View>
@@ -70,10 +70,10 @@ useEffect(()=>{
                     <Text style = {styles.text1}>Destress your commute</Text>
                     <View style ={styles.view1}>
                         <View  style ={styles.view8}>
-                            <Text style ={styles.text2}>Read a book.Take a nap. Stare out the window</Text>
+                            <Text style ={styles.text2}>Read book.Take a nap. Stare out the window</Text>
                             <TouchableOpacity onPress ={()=>{navigation.navigate("RequestScreen",{state:0})}}>
                                 <View style ={styles.button1}>
-                                    <Text style = {styles.button1Text}>Ride with Uber</Text>
+                                    <Text style = {styles.button1Text}>Ride around with Uber</Text>
                                 </View>
                             </TouchableOpacity>
                         </View>
@@ -154,7 +154,7 @@ useEffect(()=>{
                                 />
                             </View>
                             <View>
-                                <Text style ={{fontSize:18,color:colors.black}}>32 Olivia Rd</Text>
+                                <Text style ={{fontSize:18,color:colors.black}}>32 Olivia </Text>
                                 <Text style ={{color:colors.grey3}}>Klipfontein 83-Ir, Boksburg</Text>
                             </View>
                         </View>
