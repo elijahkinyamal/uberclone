@@ -82,19 +82,19 @@ const styles = StyleSheet.create({
           markerWrapOrigin: {
            //  alignItems: "center",
             // justifyContent: "center",
-              width:40,
-             height:20,
+              width:39,
+             height:21,
             // marginTop:0
             },
             markerOrigin: {
-               width: 16,
-               height: 16,
+               width: 17,
+               height: 17,
                borderRadius:8
             },
       
             destination: {
-               width:20,
-              height:20,
+               width:21,
+              height:22,
               backgroundColor:colors.black,
               alignItems:"center",
               justifyContent:"center"
@@ -112,8 +112,8 @@ const styles = StyleSheet.create({
              },
              
              markerOrigin2: {
-               width: 20,
-               height:20,
+               width: 21,
+               height:21,
                borderRadius:10
               },
    
